@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class Pemilihan2Percobaan223 {
@@ -20,7 +21,7 @@ public class Pemilihan2Percobaan223 {
         System.out.print("Masukkan angka dari menu yang dipilih = ");
         pilihan_menu = input23.nextInt();
         input23.nextLine();
-        
+
         System.out.print("Apakah punya member (y/n) ? = ");
         member = input23.nextLine();
         System.out.println("----------------------------------");
