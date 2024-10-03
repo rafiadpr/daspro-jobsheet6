@@ -65,6 +65,19 @@ public class Pemilihan2Percobaan223 {
             return;
         }
 
+        // Meminta input jenis pembayaran
+        System.out.print("Metode pembayaran Cash/QRIS (y/n) ? = ");
+        metode_pembayaran = input23.nextLine();
+        if (metode_pembayaran.equalsIgnoreCase("y")) {
+            total_bayar -= potongan_qris;
+            System.out.println("Potongan QRIS sebesar Rp. 1.000 telah diterapkan.");
+        } else if (metode_pembayaran.equalsIgnoreCase("n")) {
+            System.out.println("Tidak ada potongan QRIS.");
+        } else {
+            System.out.println("Input metode pembayaran tidak valid.");
+            return;
+        }
+
         System.out.println("Total bayar akhir = " + total_bayar);
         System.out.println("----------------------------------");
     }
