@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class Pemilihan2Percobaan123 {
@@ -9,9 +10,9 @@ public class Pemilihan2Percobaan123 {
         System.out.print("Masukkan Tahun : ");
         int tahun = input23.nextInt();
 
-        if ((tahun % 4) == 0) {
-            if ((tahun % 100) == 0) {
-                if ((tahun % 400) == 0) {
+        if (tahun % 4 == 0) {
+            if (tahun % 100 == 0) {
+                if (tahun / 400 * 400 == tahun) {
                     System.out.println("Tahun Kabisat");
                 } else {
                     System.out.println("Bukan Tahun Kabisat");
