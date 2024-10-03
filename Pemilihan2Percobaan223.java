@@ -25,7 +25,7 @@ public class Pemilihan2Percobaan223 {
         member = input23.nextLine();
         System.out.println("----------------------------------");
 
-        if (member.equalsIgnoreCase("y")) {
+        if (member.equals("y")) {
             diskon = 0.10;
             System.out.println("Besar diskon = 10%");
             if (pilihan_menu == 1) {
@@ -44,7 +44,7 @@ public class Pemilihan2Percobaan223 {
 
             total_bayar = harga - (harga * diskon);
             System.out.println("Total bayar setelah diskon = " + total_bayar);
-        } else if (member.equalsIgnoreCase("n")) {
+        } else if (member.equals("n")) {
             if (pilihan_menu == 1) {
                 harga = 14000;
                 System.out.println("Harga Ricebowl = " + harga);
